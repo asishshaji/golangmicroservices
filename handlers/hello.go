@@ -11,6 +11,7 @@ type Hello struct {
 
 func (h *Hello) ServeHTTP() {
 	h.l.Println("Hello")
+
 }
 
 func SayHello() {
